@@ -169,3 +169,26 @@ main {
 .hidden {
   display: none;
 }
+
+@media (max-width: 740px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media (max-width: 370px) {
+  html {
+    font-size: 25%;
+  }
+}
